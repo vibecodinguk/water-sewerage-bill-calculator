@@ -9,6 +9,18 @@ https://vibecodinguk.github.io/water-sewerage-bill-calculator/
 - ZIP: https://github.com/vibecodinguk/water-sewerage-bill-calculator/archive/refs/heads/main.zip
 - Repo: https://github.com/vibecodinguk/water-sewerage-bill-calculator
 
+## GitHub access
+Clone via HTTPS:
+```bash
+git clone https://github.com/vibecodinguk/water-sewerage-bill-calculator.git
+cd water-sewerage-bill-calculator
+```
+Clone via SSH:
+```bash
+git clone git@github.com:vibecodinguk/water-sewerage-bill-calculator.git
+cd water-sewerage-bill-calculator
+```
+
 ## Usage
 - Open `index.html` directly in your browser, or view the live demo link above.
 - Enter tariff settings and meter readings, then click "Calculate Bill".
@@ -17,40 +29,24 @@ https://vibecodinguk.github.io/water-sewerage-bill-calculator/
 ## Repo structure
 ```
 water-sewerage-bill-calculator/
-index.html
-README.md
+������ index.html
+������ README.md
 ```
+
+## Features
+- Accurate calculations with prorated standing charges
+- Monthly breakdown of usage and costs
+- Responsive layout for desktop and mobile
+- Export results as CSV and print-friendly PDF
+- Modern, clean UI
+- 100% client-side (no backend)
+- Easy to customize tariff rates
 
 ## Development
 No build required. Edit `index.html` and push to `main`. GitHub Pages deploys automatically via Actions.
 
-## ✨ Features
+## Contributing
+Issues and pull requests are welcome.
 
-- 🧮 **Accurate Calculations**: Precise water and sewerage bill calculations with prorated charges
-- 📊 **Monthly Breakdown**: Detailed month-by-month analysis of usage and costs
-- 📱 **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- 💾 **Export Options**: Download results as CSV or PDF
-- 🎨 **Modern UI**: Clean, professional interface with smooth animations
-- ⚡ **Client-Side**: No server required, runs entirely in the browser
-- 🔧 **Customizable**: Easy to modify tariff rates and calculation parameters
-
-**📖 How to Use**
-
-**Enter Tariff Settings:**
-
-Water standing charge (annual)
-Water volumetric rate per m³
-Sewerage standing charge (annual)
-Sewerage volumetric rate per m³
-Sewerage allowance percentage
-
-
-**Input Meter Readings:**
-
-Start and end dates
-Corresponding meter readings
-
-
-**Calculate:** Click "Calculate Bill" to generate results
-**Export:** Download your results as CSV or PDF
-
+## License
+MIT
